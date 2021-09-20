@@ -1,0 +1,47 @@
+.main {
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgb(246, 246, 239);;
+}
+
+.header {
+    background-color: #ff6600;
+
+    font-size: 10pt;
+    /*height: 22px;*/
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+
+
+.select_option_wrap {
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.primary {
+    font-size: 10pt;
+    color: #828282;
+}
+
+.title {
+    color: #000000;
+    text-decoration: none;
+}
+
+.title:visited {
+    color: #828282;
+}
+
+.secondary {
+    font-size: 7pt;
+    color: #828282;
+}
+
+.secondary > span {
+    margin-right: 10px;
+}
+
